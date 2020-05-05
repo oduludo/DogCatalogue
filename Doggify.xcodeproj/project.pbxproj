@@ -3,19 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070F807A24545EC200EF2336 /* BreedGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F807924545EC200EF2336 /* BreedGroupTableViewCell.swift */; };
+		076B16282459CC4A007E98E0 /* BreedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076B16242459CC4A007E98E0 /* BreedDetailViewController.swift */; };
+		076B16292459CC4A007E98E0 /* BreedGroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076B16252459CC4A007E98E0 /* BreedGroupsTableViewController.swift */; };
+		076B162A2459CC4A007E98E0 /* BreedGroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076B16262459CC4A007E98E0 /* BreedGroupTableViewController.swift */; };
+		076B162B2459CC4A007E98E0 /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076B16272459CC4A007E98E0 /* MainNavigationViewController.swift */; };
 		0781C7F824541B73007A5AB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781C7F724541B73007A5AB8 /* AppDelegate.swift */; };
 		0781C7FA24541B73007A5AB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781C7F924541B73007A5AB8 /* SceneDelegate.swift */; };
-		0781C7FC24541B73007A5AB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781C7FB24541B73007A5AB8 /* ViewController.swift */; };
-		0781C7FF24541B73007A5AB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0781C7FD24541B73007A5AB8 /* Main.storyboard */; };
 		0781C80224541B73007A5AB8 /* Doggify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0781C80024541B73007A5AB8 /* Doggify.xcdatamodeld */; };
 		0781C80424541B76007A5AB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0781C80324541B76007A5AB8 /* Assets.xcassets */; };
 		0781C80724541B76007A5AB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0781C80524541B76007A5AB8 /* LaunchScreen.storyboard */; };
 		0781C81224541B76007A5AB8 /* DoggifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781C81124541B76007A5AB8 /* DoggifyTests.swift */; };
 		0781C81D24541B76007A5AB8 /* DoggifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781C81C24541B76007A5AB8 /* DoggifyUITests.swift */; };
+		0781C83124542E13007A5AB8 /* BreedGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781C83024542E13007A5AB8 /* BreedGroup.swift */; };
+		07909A98245B67FD0059F3C2 /* StackedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07909A97245B67FD0059F3C2 /* StackedImageView.swift */; };
+		07AA18CE24549067002FD3E8 /* BreedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AA18CD24549067002FD3E8 /* BreedTableViewCell.swift */; };
+		07AA18D0245490E3002FD3E8 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AA18CF245490E3002FD3E8 /* Breed.swift */; };
+		07F4D9DE245435610053412B /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F4D9DD245435610053412B /* ApiHelper.swift */; };
+		C85E02C1262F2176DB16F23F /* Pods_Doggify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7A3AAA8C14173A98DB6B9C /* Pods_Doggify.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		070F807924545EC200EF2336 /* BreedGroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedGroupTableViewCell.swift; sourceTree = "<group>"; };
+		076B16242459CC4A007E98E0 /* BreedDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreedDetailViewController.swift; sourceTree = "<group>"; };
+		076B16252459CC4A007E98E0 /* BreedGroupsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreedGroupsTableViewController.swift; sourceTree = "<group>"; };
+		076B16262459CC4A007E98E0 /* BreedGroupTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreedGroupTableViewController.swift; sourceTree = "<group>"; };
+		076B16272459CC4A007E98E0 /* MainNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
 		0781C7F424541B73007A5AB8 /* Doggify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doggify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0781C7F724541B73007A5AB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0781C7F924541B73007A5AB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0781C7FB24541B73007A5AB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0781C7FE24541B73007A5AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0781C80124541B73007A5AB8 /* Doggify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Doggify.xcdatamodel; sourceTree = "<group>"; };
 		0781C80324541B76007A5AB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0781C80624541B76007A5AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +63,15 @@
 		0781C81824541B76007A5AB8 /* DoggifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoggifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0781C81C24541B76007A5AB8 /* DoggifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoggifyUITests.swift; sourceTree = "<group>"; };
 		0781C81E24541B76007A5AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0781C82F24542184007A5AB8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0781C83024542E13007A5AB8 /* BreedGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedGroup.swift; sourceTree = "<group>"; };
+		07909A97245B67FD0059F3C2 /* StackedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedImageView.swift; sourceTree = "<group>"; };
+		07AA18CD24549067002FD3E8 /* BreedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedTableViewCell.swift; sourceTree = "<group>"; };
+		07AA18CF245490E3002FD3E8 /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
+		07F4D9DD245435610053412B /* ApiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
+		302550BF34BCC6EA5E8146E5 /* Pods-Doggify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doggify.debug.xcconfig"; path = "Target Support Files/Pods-Doggify/Pods-Doggify.debug.xcconfig"; sourceTree = "<group>"; };
+		87E283A397078EB255CEDDC4 /* Pods-Doggify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doggify.release.xcconfig"; path = "Target Support Files/Pods-Doggify/Pods-Doggify.release.xcconfig"; sourceTree = "<group>"; };
+		CC7A3AAA8C14173A98DB6B9C /* Pods_Doggify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doggify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C85E02C1262F2176DB16F23F /* Pods_Doggify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +107,8 @@
 				0781C81024541B76007A5AB8 /* DoggifyTests */,
 				0781C81B24541B76007A5AB8 /* DoggifyUITests */,
 				0781C7F524541B73007A5AB8 /* Products */,
+				6DC5199A849A166A192C6438 /* Pods */,
+				AECB7F100A493C3967316A00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +125,16 @@
 		0781C7F624541B73007A5AB8 /* Doggify */ = {
 			isa = PBXGroup;
 			children = (
+				0781C82E2454215B007A5AB8 /* HelperClasses */,
+				0781C82C24542133007A5AB8 /* Controllers */,
+				0781C82B2454212C007A5AB8 /* Views */,
+				0781C82A24542125007A5AB8 /* Models */,
 				0781C7F724541B73007A5AB8 /* AppDelegate.swift */,
 				0781C7F924541B73007A5AB8 /* SceneDelegate.swift */,
-				0781C7FB24541B73007A5AB8 /* ViewController.swift */,
-				0781C7FD24541B73007A5AB8 /* Main.storyboard */,
 				0781C80324541B76007A5AB8 /* Assets.xcassets */,
-				0781C80524541B76007A5AB8 /* LaunchScreen.storyboard */,
 				0781C80824541B76007A5AB8 /* Info.plist */,
 				0781C80024541B73007A5AB8 /* Doggify.xcdatamodeld */,
+				0781C82F24542184007A5AB8 /* README.md */,
 			);
 			path = Doggify;
 			sourceTree = "<group>";
@@ -131,6 +157,62 @@
 			path = DoggifyUITests;
 			sourceTree = "<group>";
 		};
+		0781C82A24542125007A5AB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0781C83024542E13007A5AB8 /* BreedGroup.swift */,
+				07AA18CF245490E3002FD3E8 /* Breed.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0781C82B2454212C007A5AB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0781C80524541B76007A5AB8 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0781C82C24542133007A5AB8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				076B16242459CC4A007E98E0 /* BreedDetailViewController.swift */,
+				076B16252459CC4A007E98E0 /* BreedGroupsTableViewController.swift */,
+				076B16262459CC4A007E98E0 /* BreedGroupTableViewController.swift */,
+				076B16272459CC4A007E98E0 /* MainNavigationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0781C82E2454215B007A5AB8 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				07F4D9DD245435610053412B /* ApiHelper.swift */,
+				070F807924545EC200EF2336 /* BreedGroupTableViewCell.swift */,
+				07AA18CD24549067002FD3E8 /* BreedTableViewCell.swift */,
+				07909A97245B67FD0059F3C2 /* StackedImageView.swift */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		6DC5199A849A166A192C6438 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				302550BF34BCC6EA5E8146E5 /* Pods-Doggify.debug.xcconfig */,
+				87E283A397078EB255CEDDC4 /* Pods-Doggify.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AECB7F100A493C3967316A00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC7A3AAA8C14173A98DB6B9C /* Pods_Doggify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0781C82124541B76007A5AB8 /* Build configuration list for PBXNativeTarget "Doggify" */;
 			buildPhases = (
+				F9CC926BDD8E8BC6A862AB10 /* [CP] Check Pods Manifest.lock */,
 				0781C7F024541B73007A5AB8 /* Sources */,
 				0781C7F124541B73007A5AB8 /* Frameworks */,
 				0781C7F224541B73007A5AB8 /* Resources */,
+				C3F8A18B7417157D6E7A69B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,7 +321,6 @@
 			files = (
 				0781C80724541B76007A5AB8 /* LaunchScreen.storyboard in Resources */,
 				0781C80424541B76007A5AB8 /* Assets.xcassets in Resources */,
-				0781C7FF24541B73007A5AB8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,15 +340,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C3F8A18B7417157D6E7A69B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Doggify/Pods-Doggify-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Doggify/Pods-Doggify-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Doggify/Pods-Doggify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9CC926BDD8E8BC6A862AB10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Doggify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0781C7F024541B73007A5AB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0781C7FC24541B73007A5AB8 /* ViewController.swift in Sources */,
+				07AA18CE24549067002FD3E8 /* BreedTableViewCell.swift in Sources */,
+				07909A98245B67FD0059F3C2 /* StackedImageView.swift in Sources */,
+				076B16282459CC4A007E98E0 /* BreedDetailViewController.swift in Sources */,
+				07F4D9DE245435610053412B /* ApiHelper.swift in Sources */,
+				076B162A2459CC4A007E98E0 /* BreedGroupTableViewController.swift in Sources */,
+				076B16292459CC4A007E98E0 /* BreedGroupsTableViewController.swift in Sources */,
+				076B162B2459CC4A007E98E0 /* MainNavigationViewController.swift in Sources */,
 				0781C80224541B73007A5AB8 /* Doggify.xcdatamodeld in Sources */,
 				0781C7F824541B73007A5AB8 /* AppDelegate.swift in Sources */,
+				0781C83124542E13007A5AB8 /* BreedGroup.swift in Sources */,
 				0781C7FA24541B73007A5AB8 /* SceneDelegate.swift in Sources */,
+				07AA18D0245490E3002FD3E8 /* Breed.swift in Sources */,
+				070F807A24545EC200EF2336 /* BreedGroupTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +435,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0781C7FD24541B73007A5AB8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0781C7FE24541B73007A5AB8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0781C80524541B76007A5AB8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -323,7 +449,7 @@
 		0781C81F24541B76007A5AB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -356,6 +482,13 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/Pods/Alamofire",
+					"$(SRCROOT)/Pods/Kingfisher",
+					"$(SRCROOT)/Pods/RealmSwift",
+					"$(SRCROOT)/Pods/Realm",
+					"$(SRCROOT)/Pods/SwiftyJSON",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -370,6 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(inherited)\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -383,7 +517,7 @@
 		0781C82024541B76007A5AB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -416,6 +550,13 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/Pods/Alamofire",
+					"$(SRCROOT)/Pods/Kingfisher",
+					"$(SRCROOT)/Pods/RealmSwift",
+					"$(SRCROOT)/Pods/Realm",
+					"$(SRCROOT)/Pods/SwiftyJSON",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -424,6 +565,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(inherited)\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -436,6 +578,7 @@
 		};
 		0781C82224541B76007A5AB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 302550BF34BCC6EA5E8146E5 /* Pods-Doggify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +597,7 @@
 		};
 		0781C82324541B76007A5AB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87E283A397078EB255CEDDC4 /* Pods-Doggify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
